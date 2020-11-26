@@ -156,7 +156,7 @@ Mechanizmem w C\+\+, który do tego służy, jest słowo kluczowe `virtual`.
 Klasę, która posiada choć jedną metodę oznaczoną tym słowem nazywamy klasą polimorficzną.
 W reprezentacji obiektu takiej klasy, kompilator tworzy dodatkowo strukturę danych (*vpointer*), która zawiera w sobie informację o "prawdziwym" typie danego obiektu (a dokładniej mówiąc, wskazuje miejsce, w którym zapisane jest "prawdziwe" zachowanie obiektu, o szczegółach można przeczytać np. [tutaj](https://pabloariasal.github.io/2017/06/10/understanding-virtual-tables/)).
 
-#### Zadanie 11
+#### Zadanie 11 
 Oznacz metodę `id` klasy `Figura` jako wirtualną.
 Oznacz metody `id` klas po niej dziedziczących jako nadpisujące (`override`).
 Powtórz zadanie 9.
