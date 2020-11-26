@@ -12,7 +12,7 @@ unsigned int transportujFlota(unsigned int towar)
     }
 
     while (towar_transportowany<towar){
-      Statek* statek = stocznia();
+      Statek* statek = Stocznia();
       towar_transportowany += (statek -> transportuj());
 
       if(dynamic_cast<Zaglowiec*>(statek)){
